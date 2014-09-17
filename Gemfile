@@ -36,6 +36,15 @@ gem 'foundation-rails'
 gem "paperclip", "~> 4.1"
 gem 'pry'
 gem 'pry-nav'
+gem 'sunspot_rails'
+
+group :development do
+  gem 'sunspot_solr'
+  gem 'progress_bar'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'annotate'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
