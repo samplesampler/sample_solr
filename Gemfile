@@ -43,7 +43,6 @@ group :development do
   gem 'progress_bar'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'annotate'
 end
 
 # Use ActiveModel has_secure_password
